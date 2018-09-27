@@ -1,0 +1,26 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+// Custom CSS
+// @import "custom";
+
+/*
+  Import Syntax:
+
+  It's not necessary to include the underscore (_) or the file extension (.scss)
+  when importing a file.
+  The underscore in front of the targeted file instructs the program that it is
+  for importing.
+*/
